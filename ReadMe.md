@@ -1,3 +1,16 @@
-# HollowKnight.AdvancedInfection
+# Infected Hallownest
 
-A mod for the game Hollow Knight.
+This mod adds a new layer of complexity to the dreaded Infection. 
+
+In the game, when you either acquire the Monarch Wings or defeat one of the Dreamers,
+the Forgotten Crossroads become overwhelmed by Infection, replacing many of the enemies with
+stronger versions of themselves.
+
+In the spirit of this, I've added an additional stage to the Infection's progression.
+After you defeat the Hollow Knight, the Infection spreads beyond the Forgotten Crossroads,
+causing various enemies throughout the game to have a chance to be extra Infected.
+
+Extra Infected enemies will flash orange repeatedly and have twice as much health.
+
+## Special Thanks
+Idea proposed by MsGREEN419 based on the events of Silksong Act 3.

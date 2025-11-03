@@ -326,4 +326,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" Link=".gitignore" />
+    <None Include="..\ReadMe.md" Link="ReadMe.md" />
+  </ItemGroup>
 </Project>
