@@ -10,7 +10,7 @@ namespace InfectedHallownest
     {
         internal static InfectedHallownest Instance;
 
-        public override string GetVersion() => "1.0.0.0";
+        public override string GetVersion() => "1.0.1.0";
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects)
         {
@@ -133,6 +133,12 @@ namespace InfectedHallownest
                 dreamBossNames.Contains(objectName) ||
                 sceneName.StartsWith("White_Palace") ||
                 sceneName.StartsWith("GG_"))
+            {
+                return;
+            }
+
+            // Apparently the Radiance is a special case and has to be handled separately
+            if (objectName.Equals("Radiance"))
             {
                 return;
             }

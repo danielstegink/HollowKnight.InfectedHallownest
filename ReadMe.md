@@ -14,3 +14,7 @@ Extra Infected enemies will flash orange repeatedly and have twice as much healt
 
 ## Special Thanks
 Idea proposed by MsGREEN419 based on the events of Silksong Act 3.
+
+## Patch Notes
+1.0.1.0
+- Fixed bug allowing the Radiance to be infected
