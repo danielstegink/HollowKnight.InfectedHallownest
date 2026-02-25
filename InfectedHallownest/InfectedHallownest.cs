@@ -10,7 +10,7 @@ namespace InfectedHallownest
     {
         internal static InfectedHallownest Instance;
 
-        public override string GetVersion() => "1.0.1.0";
+        public override string GetVersion() => "1.0.2.0";
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects)
         {
@@ -75,7 +75,10 @@ namespace InfectedHallownest
             }
 
             // The Infection doesn't affect the Grimm Troupe
-            if (objectName.Contains("Grimm"))
+            if (objectName.Contains("Grimm") ||
+                objectName.Contains("Flamebearer") ||
+                objectName.Contains("Real Bat") ||
+                objectName.Contains("Fake Bat"))
             {
                 return;
             }
